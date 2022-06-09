@@ -1,0 +1,345 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(187, 51, 202, 0.3), rgba(187, 51, 202, 0.3)), url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 77%, 0 0);
+    /*....for down triangular shape......*/
+    position: relative;
+}
+
+
+/*.....sudo element...*/
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #eccdbb 0%, #16c9f6 100%);
+}
+
+.nevbar::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #eccdbb 0%, #16c9f6 100%);
+}
+
+.navbar-brand {
+    color: rgb(178, 134, 213);
+    font-size: 1.5rem;
+    font-family: 'Palette Mosaic', cursive;
+    transition: all 0.3s linear;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.nav-item a {
+    color: rgba(255, 255, 255, 0.864)!important;
+    font-weight: 1000;
+    transition: all 0.2s linear;
+}
+
+.nav-item a:hover {
+    transform: scale(1.2);
+    color: #fff!important;
+}
+
+.header-section {
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-button a {
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 10px 25px;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.header-button a:hover {
+    color: #d150c4;
+    background: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(15, 14, 15, 0.503);
+}
+
+.center-div p {
+    font-size: 1.5rem;
+    padding: 5px 0 10px 0;
+    color: rgba(255, 255, 255, 0.864);
+    font-weight: 500;
+    transition: all 0.4s linear;
+    font-family: 'Raleway', sans-serif;
+}
+
+.center-div p:hover {
+    color: white;
+    font-weight: 500;
+    transform: scale(1.33);
+}
+
+.header-section h1 {
+    font-size: 5rem;
+    color: rgba(255, 255, 255, 0.864);
+    transition: all 0.5s linear;
+}
+
+.header-section h1:hover {
+    color: #fff;
+    transform: scale(1.3);
+}
+
+.container h1 {
+    padding-top: 8%;
+    font-size: 2.75rem;
+}
+
+
+/* **********************************About css started************************************* */
+
+#profile {
+    clip-path: polygon(23% 0%, 73% 0%, 100% 48%, 77% 100%, 27% 100%, 0 52%);
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.bg-prime {
+    background: linear-gradient(to right, #c45cbf97 0%, #4f334fb6 0%, #d689be 100%);
+}
+
+.header2 {
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+
+/* **********************************About css ended************************************* */
+
+
+/* **********************************Project css started************************************* */
+
+.header3 {
+    width: 100%;
+    height: 100%;
+    background: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 130px;
+}
+
+
+/* **********************************Project css ended************************************* */
+
+
+/* **********************************Contact css started************************************* */
+
+.header4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #fae9fb;
+    justify-content: center;
+}
+
+.header4 .container {
+    max-width: 1050px;
+    width: 100%;
+    background: #fff;
+    border-radius: 60px;
+    margin: auto auto;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.content .image-box {
+    max-width: 55%;
+}
+
+.content .image-box img {
+    max-width: 100%;
+}
+
+.content .topic {
+    font-size: 22px;
+    font-weight: 550;
+    color: #ba24c2;
+    transition: all 0.3s linear;
+}
+
+.content .topic:hover {
+    transform: scale(1.2);
+}
+
+
+/* ********************************Contact CSS ended************************************ */
+
+
+/* ********************************footer start************************************ */
+
+.footer-section {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    padding: 30px 0;
+    background: rgba(51, 3, 59, 0.979);
+}
+
+.footer-section .social {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.social a {
+    margin: 20px;
+}
+
+.fa-instagram {
+    color: #e84393;
+}
+
+.fa-linkdin {
+    color: #0097e6;
+    ;
+}
+
+.fa-github {
+    color: #6f766f;
+}
+
+.social a i {
+    transition: all 0.1s linear;
+}
+
+
+/* ********************************footer end************************************ */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background: #d150c4;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.2s linear;
+}
+
+#myBtn:hover {
+    background: #9a8a9a;
+    box-shadow: 0 0 10px 0 rgba(138, 103, 138, 0.319);
+    transform: scale(1.4);
+}
+
+
+/* *************************************for small device********************************************* */
+
+@media (max-width:768px) {
+    .nav-item {
+        text-align: center;
+        background: rgba(61, 41, 62, 0.714);
+    }
+    .nav-item:hover {
+        background: rgba(219, 148, 223, 0.714);
+    }
+    .bar {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width:900px) {
+    .content .image-box {
+        display: none;
+    }
+    .content form {
+        width: 100%;
+        margin-left: 30px;
+    }
+}
+
+
+/* ************************************************classes of fonts*************************************** */
+
+h5 {
+    font-size: 3rem;
+    font-family: 'Palette Mosaic', cursive;
+    transition: all 0.3s linear;
+}
+
+h5:hover {
+    transform: scale(1.15);
+}
+
+
+/* ***********************CSS Ended************************ */
