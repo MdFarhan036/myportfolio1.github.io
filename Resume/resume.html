@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <!-- ************************* CSS ************************** -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ************************* Box Icons ************************** -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <!-- **********header**************** -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Farhan</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#Home" class="nav_link active-link">
+                            <i class="bx bx-home nav_icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Profile" class="nav_link">
+                            <i class="bx bx-user nav_icon"></i>Profile
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Education" class="nav_link">
+                            <i class="bx bx-book nav_icon"></i>Education
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#Skills" class="nav_link">
+                            <i class="bx bx-receipt nav_icon"></i>Skills
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- all element within this div, is generated in pdf -->
+        <div class="resume" id="area-cv">
+            <div class="resume_left">
+
+                <body>
+                    <div class="container">
+                        <div class="left_side">
+                            <!-- Home -->
+                            <section class="home" id="Home">
+                                <div class="home_container section bd-grid">
+                                    <div class="home_data bd-grid">
+                                        <img src="1640153729777.jpg" alt="photo" class="home_img">
+
+                                        <h1 class="home_title"><b>Md Farhan Arshad</b></h1>
+                                        <h3 class="home_profession">Web Developer</h3>
+
+                                        <!-- botton to download your cv saved in the pdf folder. Available for mobile -->
+                                        <div>
+                                            <a download="" href=".Resume/myResume.pdf" class="home_button-movil">Download</a>
+                                            <!-- incomplite-->
+                                        </div>
+
+                                    </div>
+                                    <div class="home_address bd-grid">
+                                        <span class="home_information">
+                            <i class='bx bx-map home_icon'></i> Ranchi,Jharkhand
+                        </span>
+                                        <span class="home_information">
+                            <i class='bx bx-envelope home_icon'></i> mdfarhan2886@gmail.com
+                        </span>
+                                        <span class="home_information">
+                            <i class='bx bx-phone home_icon'></i> +917488210403
+                        </span>
+
+                                    </div>
+                                </div>
+                                <!-- theme change botton -->
+                                <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                                <!-- button to generate and dawnload the pdf folder. Available for desktop. -->
+                                <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                            </section>
+                            <!-- social -->
+                            <section class="social section">
+                                <h2 class="section-title">SOCIAL</h2>
+                                <div class="social_container bd-grid">
+                                    <a href="https://linkedin.com/in/md-farhan-5983b1193/" class="social_link">
+                                        <i class="bx bxl-linkedin socil_icon" target="_blank"></i>https://linkedin.com/in/md-farhan-5983b1193/
+                                    </a>
+                                    <a href="https://github.com/MdFarhan036/" class="social_link">
+                                        <i class="bx bxl-github socil_icon" target="_blank"></i>https://github.com/MdFarhan036/
+                                    </a>
+                                    <a href="https://www.instagram.com/mdfarhanarshad/" class="social_link">
+                                        <i class="bx bxl-instagram socil_icon" target="_blank"></i>https://www.instagram.com/mdfarhanarshad/
+                                    </a>
+                                </div>
+                            </section>
+
+                        </div>
+                        <!-- Education -->
+                        <section class="education section" id="Education">
+                            <h2 class="section-title">Education</h2>
+                            <div class="education_center bd-grid">
+                                <div class="education_content">
+                                    <div class="education_time">
+                                        <span class="education_round"></span>
+                                        <span class="education_line"></span>
+                                    </div>
+                                    <div class="education_data bd-grid">
+                                        <h3 class="education_title">University of Engineering and Management, Jaipur</h3>
+                                        <span class="education_studies">
+                                B.Tech in Computer Science Engineering | 2022
+                            </span>
+                                        <span class="education_year">Marks - 8.00/10.00</span>
+                                    </div>
+                                </div>
+                                <div class="education_content">
+                                    <div class="education_time">
+                                        <span class="education_round"></span>
+                                        <span class="education_line"></span>
+                                    </div>
+                                    <div class="education_data bd-grid">
+                                        <h3 class="education_title">Manan Vidya Manrakhan Mahto School,Ranchi</h3>
+                                        <span class="education_studies">
+                                Higher Secondary - 12th Class | 2019
+                            </span>
+                                        <span class="education_year">Marks - 62/100</span>
+                                    </div>
+                                </div>
+                                <div class="education_content">
+                                    <div class="education_time">
+                                        <span class="education_round"></span>
+                                        <!-- <span class="education_line"></span> -->
+                                    </div>
+                                    <div class="education_data bd-grid">
+                                        <h3 class="education_title">Manan Vidya Manrakhan Mahto School,Ranchi</h3>
+                                        <span class="education_studies">
+                                Secondary - 10th Class | 2017
+                            </span>
+                                        <span class="education_year">Marks - 8.40/10.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Skills -->
+                        <section class="skill section" id="Skills">
+                            <h2 class="section-title">Skills</h2>
+                            <div class="skill_content bd-grid">
+                                <ul class="skill_data">
+                                    <li class="skills_name">
+                                        <span class="skill_circle"></span>C language
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skill_circle"></span>C++
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skill_circle"></span>Python
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skill_circle"></span>HTML
+                                    </li>
+                                </ul>
+                                <ul class="skill_data">
+                                    <li class="skills_name">
+                                        <span class="skill_circle"></span>CSS
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skill_circle"></span>JavaScript
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+            </div>
+            <div class="resume_right">
+                <!-- Profile -->
+                <section class="profile section" id="Profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile_description">I am Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut magni doloremque nihil facilis sunt saepe dolor eius vel.</p>
+                </section>
+                <!-- Experience -->
+                <section class="experience section" id="Projects">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience_centainer bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_round"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Corporate Relations Manager</h3>
+                                <span class="experience_company">
+                                    From 2019 to Present | Across The Globe
+                                </span>
+                                <p class="experience_description">Work in the company Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum a minus nihil, maiores pariatur, voluptate quo quia, veniam sit eum odit.</p>
+                            </div>
+                        </div>
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_round"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Web Developer</h3>
+                                <span class="experience_company">
+                                    From 2021 to Present | Self Employed
+                                </span>
+                                <p class="experience_description">Work in the company Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum a minus nihil, maiores pariatur, voluptate quo quia, veniam sit eum odit.</p>
+                            </div>
+                        </div>
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_round"></span>
+                                <!-- <span class="experience_line"></span> -->
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">Python Developer</h3>
+                                <span class="experience_company">
+                                    From 2021 to Present | Self Employed
+                                </span>
+                                <p class="experience_description">Work in the company Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum a minus nihil, maiores pariatur, voluptate quo quia, veniam sit eum odit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- languages -->
+                <section class="language section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="language_container">
+                        <ul class="languages_content bd-grid">
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>Hindi
+                            </li>
+                            <li class="languages_name">
+                                <span class="languages_circle"></span>English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- interests -->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests_container bd-grid">
+                        <div class="interests_content">
+                            <i class="bx bx-headphone interests_icon"></i>
+                            <span class="interests_name">Music</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class="bx bxs-plane-alt interests_icon"></i>
+                            <span class="interests_name">Travel</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class="bx bx-dumbbell interests_icon"></i>
+                            <span class="interests_name">Fitness</span>
+                        </div>
+                        <div class="interests_content">
+                            <i class="bx bxs-chess interests_icon"></i>
+                            <span class="interests_name">Chess</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        </div>
+
+        </body>
+
+</html>
